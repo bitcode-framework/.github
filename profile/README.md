@@ -11,7 +11,6 @@ Build any application — ERP, CRM, HRM, inventory, project management, or custo
 [![Go](https://img.shields.io/badge/Go-1.24+-00ADD8?logo=go)](https://go.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript)](https://www.typescriptlang.org/)
 [![Rust](https://img.shields.io/badge/Rust-1.80+-000000?logo=rust)](https://www.rust-lang.org/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Status](https://img.shields.io/badge/status-WIP-yellow.svg)]()
 
 </div>
@@ -154,4 +153,4 @@ BitCode is under active development and not yet production-ready. The core engin
 
 ## License
 
-[MIT](https://opensource.org/licenses/MIT)
+Each repository carries its own license. Check the `LICENSE` file in the repository you are using.
