@@ -65,6 +65,7 @@ Everything below runs in the browser. No install, no signup.
 | **[go-json — language playground](https://bitcode-framework.github.io/go-json/)** | Write and run JSON programs; the engine is compiled to WebAssembly |
 | **[expr-js — expression playground](https://bitcode-framework.github.io/expr-js/)** | Evaluate expr-lang expressions with the TypeScript port |
 | **[go-json-runtimes — script bridge](https://bitcode-framework.github.io/go-json-runtimes/)** | Run a go-json program that calls into JavaScript through a `script:` import |
+| **[ui-web-components — gallery (deprecated)](https://bitcode-framework.github.io/ui-web-components/demo/)** | The original Stencil component gallery, kept for reference while users migrate |
 
 ## Repositories
 
@@ -72,7 +73,7 @@ Everything below runs in the browser. No install, no signup.
 
 | Repo | Description |
 |------|-------------|
-| [bitcode](https://github.com/bitcode-framework/bitcode) | Full monorepo — Go engine, UI packages, Tauri shell. Source of truth. *(private)* |
+| [bitcode](https://github.com/bitcode-framework/bitcode) | Full monorepo — Go engine, UI packages, Tauri shell. Source of truth. |
 
 ### UI Layer
 
@@ -84,6 +85,7 @@ The UI layer is split by responsibility: one source of truth for schema, and one
 | [ui](https://github.com/bitcode-framework/ui) | Cross-framework components built on Mitosis, compiled to React, Vue, React Native, and Web Components. | [demo](https://bitcode-framework.github.io/ui/) |
 | [ui-flutter](https://github.com/bitcode-framework/ui-flutter) | Contract-driven Flutter widgets and schema renderer, ported from the same schema and tokens. | [demo](https://bitcode-framework.github.io/ui-flutter/) |
 | [ui-tauri](https://github.com/bitcode-framework/ui-tauri) | Tauri 2.0 native shell: desktop (Windows/macOS/Linux) and mobile (iOS/Android), offline SQLite, native bridge. | *(native app — no web demo)* |
+| [ui-web-components](https://github.com/bitcode-framework/ui-web-components) | **Deprecated.** The original Stencil-based Web Components set. Kept for reference; migrate to `ui`, `ui-schema`, and `ui-flutter`. | [demo](https://bitcode-framework.github.io/ui-web-components/demo/) |
 
 > **`ui-web-components` is deprecated.** The Stencil-based component set has been superseded by
 > [ui](https://github.com/bitcode-framework/ui), [ui-schema](https://github.com/bitcode-framework/ui-schema),
@@ -122,7 +124,7 @@ The UI layer is split by responsibility: one source of truth for schema, and one
 
 ## Quick Start
 
-The engine source lives in the private `bitcode` monorepo. The packages below
+The engine source lives in the `bitcode` monorepo. The packages below
 install and run on their own.
 
 **go-json CLI** — standalone JSON/JSONC language engine:
