@@ -64,6 +64,7 @@ Everything below runs in the browser. No install, no signup.
 | **[ui-schema — reactive engine](https://bitcode-framework.github.io/ui-schema/)** | Edit a form and watch declared reactions recompute |
 | **[go-json — language playground](https://bitcode-framework.github.io/go-json/)** | Write and run JSON programs; the engine is compiled to WebAssembly |
 | **[expr-js — expression playground](https://bitcode-framework.github.io/expr-js/)** | Evaluate expr-lang expressions with the TypeScript port |
+| **[go-json-runtimes — script bridge](https://bitcode-framework.github.io/go-json-runtimes/)** | Run a go-json program that calls into JavaScript through a `script:` import |
 
 ## Repositories
 
@@ -93,7 +94,7 @@ The UI layer is split by responsibility: one source of truth for schema, and one
 | Repo | Description | Demo |
 |------|-------------|------|
 | [go-json](https://github.com/bitcode-framework/go-json) | Standalone JSON/JSONC programming language engine. 20 step types, 200+ built-in functions, structs, lambdas, I/O modules, built-in web server. | [playground](https://bitcode-framework.github.io/go-json/) |
-| [go-json-runtimes](https://github.com/bitcode-framework/go-json-runtimes) | Script runtime engines for go-json: goja, QuickJS, Yaegi, WASM, Node.js, Python. Opt-in, zero heavy pulls. | — |
+| [go-json-runtimes](https://github.com/bitcode-framework/go-json-runtimes) | Script runtime engines for go-json: goja, QuickJS, Yaegi, WASM, Node.js, Python. Opt-in, zero heavy pulls. | [playground](https://bitcode-framework.github.io/go-json-runtimes/) |
 | [expr-js](https://github.com/bitcode-framework/expr-js) | TypeScript port of [expr-lang/expr](https://github.com/expr-lang/expr) v1.17.8 — the expression engine behind go-json and the UI layer. | [playground](https://bitcode-framework.github.io/expr-js/) |
 
 ## Architecture at a Glance
